@@ -1,0 +1,272 @@
+
+<head>
+
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title>Home Page</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bokor&family=Josefin+Slab:wght@100&family=Zen+Loop&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style>
+   ul li .material-icons
+   {
+      font-size:16px;border-bottom:1px solid white;
+      background:green;
+      color:white;
+      padding:2px;
+      border-radius:4px;
+
+   }
+   </style>
+
+</head>
+
+<body>
+
+
+
+
+
+     <nav class="#66bb6a green lighten-1">
+       <div class="nav-wrapper">
+         <div class="container">
+            <a href="#!" class="brand-logo">NATURE</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+               <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+              <li><a href="Account.html" >Account</a></li>
+
+            </ul>
+         </div>
+       </div>
+     </nav>
+
+
+  <ul class="sidenav" id="mobile-demo">
+     <li><a href="index.html">Home</a></li>
+  <li><a href="about.html">About</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+  <li><a href="contact.html" >Contact</a></li>
+    <li><a href="Account.html" >Account</a></li>
+  </ul>
+
+
+
+    <h3 class="center-align green-text ighten-3">Contact Us</h3>
+    <div class="row">
+        <div class="col s4 m4 l4 offset-l4 offset-s4">
+        <hr  style="background:green;height:1px; border-radius:3px;">
+        </div>
+    </div>
+
+    <div class=" container ">
+      <div class="row ">
+    <form id="contact" class="col s12 card-panel hoverable"  action="https://formspree.io/f/xjvljrwk"
+  method="POST" style="padding:10px;">
+     <div class="row">
+        <div class="input-field col s12 m6 l6 ">
+          <i class="material-icons prefix">account_circle</i>
+          <input id="icon_prefix" type="text" name="name" required class="validate">
+          <label for="icon_prefix">First Name</label>
+          <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+
+      </div>
+      <div class="input-field col s12 m6 m6 l6">
+          <i class="material-icons prefix">phone</i>
+          <input id="icon_telephone" name="Phone" required type="tel" class="validate"  data-length="10">
+          <label for="icon_telephone">Phone Number</label>
+          <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+      </div>
+     </div>
+     <div class="row">
+        <div class="input-field col m12 l12 s12">
+           <i class="material-icons prefix">email</i>
+           <input id="email" type="email" name="email" required class="validate">
+           <label for="email">Email Address</label>
+           <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+         </div>
+     </div>
+
+     <div class="row">
+      <div class="input-field col m12 l12 s12">
+         <i class="material-icons name="Message" prefix">textsms</i>
+        <textarea id="textarea1" required class="materialize-textarea" data-length="150"></textarea>
+        <label for="textarea1">Type your Message...</label>
+        <span class="helper-text" data-error="wrong" data-success="right">Helper text</span>
+      </div>
+    </div>
+   <center><button class="btn waves-effect waves-light green" type="submit"  name="action">Submit
+       <i class="material-icons right">send</i>
+     </button></center>
+
+
+    </form>
+    </div>
+    </div>
+
+
+
+   <div class="container">
+      <div class="row">
+         <div class="col s12 l12 m12 card-panel">
+
+            <ul class="collapsible">
+            <li class="active">
+              <div class="collapsible-header"><i class="material-icons">email</i>Emails</div>
+              <div class="collapsible-body #8bc34a light-green">
+
+                    <h6 class="white-text lighten-2"><i class="material-icons">email</i> swaynnarayan@gmaill.com</h6>
+                     <h6 class="white-text lighten-2"> <i class="material-icons">email</i> swaynnarayan1@gmaill.com</h6>
+
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header "><i class="material-icons">call</i>Contact details</div>
+              <div class="collapsible-body #8bc34a light-green">
+                  <h6 class="white-text lighten-2"><i class="material-icons">call</i> +91 7847869140</h6>
+                  <h6 class="white-text lighten-2"> <i class="material-icons">call</i> +91 7377905282</h6>
+              </div>
+            </li>
+            <li>
+              <div class="collapsible-header"><i class="material-icons">add_location</i>Location</div>
+              <div class="collapsible-body #8bc34a light-green">
+
+                 <div class="container">
+                    <div class="row">
+                        <h6 class="white-text lighten-2"><i class="material-icons">add_location</i> Tamando Bazar, Tamando, Bijipur, Odisha</h6>
+                       <div class="col s12 m12 l12">
+                          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1871.750803808779!2d85.74920130797152!3d20.238021363229027!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a19a86711664c99%3A0xc85af92386aacf42!2sTamando%20Bazar%2C%20Tamando%2C%20Bhubaneswar%2C%20Odisha%20752054!5e0!3m2!1sen!2sin!4v1652351395997!5m2!1sen!2sin" width="100%" height="400" style="border-radius:10px;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                       </div>
+                    </div>
+
+                 </div>
+              </div>
+            </li>
+            </ul>
+         </div>
+
+      </div>
+
+   </div>
+
+
+
+
+    <footer class="page-footer #66bb6a green lighten-1"">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text ">Footer Content</h5>
+                <div class="row">
+                    <div class="col s4 m4 l4 ">
+                    <hr  style="background:green;height:1px; border-radius:3px;">
+                    </div>
+                </div>
+               <div class="row">
+
+                     <img src="img/footer.jpg" alt="footer img" class="z-depth-4 responsive-img materialboxed show-on-small hide-on-large-only">
+                     <p class="grey-text text-lighten-4"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                     </p>
+
+
+               </div>
+
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text"> Page Links </h5>
+                <div class="row">
+                    <div class="col s4 m4 l5">
+                    <hr  style="background:white;height:1px; border-radius:3px;">
+                    </div>
+                </div>
+                <ul>
+                  <li>
+
+                     <span class="material-icons">
+                     home
+                     </span>
+               <a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                  <li>
+                     <span class="material-icons">
+                    info
+                    </span>
+                     <a class="grey-text text-lighten-3" href="about.html">About</a></li>
+                  <li>
+                     <span class="material-icons">
+                     browse_gallery
+                     </span>
+                     <a class="grey-text text-lighten-3" href="galery.html">Gallery</a></li>
+                  <li>
+                     <span class="material-icons">
+                     contact_emergency
+                     </span>
+                     <a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
+                  <li>
+      <a class="grey-text text-lighten-3" href="#!">  <span class="material-icons">account_circle</span> Account</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2021 Copyright Nature Explore
+            <a class="grey-text text-lighten-4 right" href="http://nswain.netlify.app">Design By NiKU</a>
+            </div>
+          </div>
+        </footer>
+
+
+
+<script type="text/javascript">
+   $(document).ready(function(){
+   $('.sidenav').sidenav();
+
+   $('.carousel.carousel-slider').carousel({
+     fullWidth: true,
+     indicators: true,
+     autoplay: true,
+     pressed:true,
+     duration:300,
+     dist:100,
+
+   }, setTimeout(autoplay, 4500));
+
+   function autoplay() {
+     $('.carousel').carousel('next');
+     setTimeout(autoplay, 4500);
+   }
+
+
+   $(document).ready(function(){
+    $('.fixed-action-btn').floatingActionButton();
+  });
+
+
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
+
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+      $('.collapsible').collapsible();
+  });
+
+});
+
+
+
+</script>
+
+
+</body>

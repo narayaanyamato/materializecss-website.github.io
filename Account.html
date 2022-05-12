@@ -1,0 +1,265 @@
+<head>
+
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+   <title>Account  Page | Signup page | Sign in page</title>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bokor&family=Josefin+Slab:wght@100&family=Zen+Loop&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<style>
+   ul li .material-icons
+   {
+      font-size:16px;border-bottom:1px solid white;
+      background:green;
+      color:white;
+      padding:2px;
+      border-radius:4px;
+
+   }
+   </style>
+
+</head>
+
+<body>
+
+
+
+
+
+     <nav class="#66bb6a green lighten-1">
+       <div class="nav-wrapper">
+         <div class="container">
+            <a href="#!" class="brand-logo">NATURE</a>
+              <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+               <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+              <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html" >Contact</a></li>
+              <li><a href="Account.html" >Account</a></li>
+
+
+            </ul>
+         </div>
+       </div>
+     </nav>
+
+
+  <ul class="sidenav" id="mobile-demo">
+     <li><a href="index.html">Home</a></li>
+     <li><a href="about.html">About</a></li>
+     <li><a href="gallery.html">Gallery</a></li>
+     <li><a href="contact.html" >Contact</a></li>
+     <li><a href="Account.html" >Account</a></li>
+
+  </ul>
+
+
+  <h3 class="center-align green-text ighten-3">Sign-up</h3>
+  <div class="row">
+      <div class="col s4 m4 l4 offset-l4 offset-s4">
+      <hr  style="background:green;height:1px; border-radius:3px;">
+      </div>
+  </div>
+
+   <div class="container">
+      <div class="row">
+         <div class="col l12 m12 s12">
+            <form class="col s12 m8 l12 card-panel ">
+               <div class="row">
+                 <div class="input-field col s12">
+                   <input id="FirstName" type="text" class="validate">
+                   <label for="FirstName">First Name</label>
+                 </div>
+                 <div class="input-field col s12">
+                   <input id="LastName" type="text" class="validate">
+                   <label for="LastName">Last Name</label>
+                 </div>
+                  <div class="input-field col s12">
+                   <input id="Email" type="email" class="validate">
+                   <label for="Email">Email</label>
+                 </div>
+                <div class="input-field col s12">
+                   <input id="Phone" type="text" class="validate">
+                   <label for="Phone">Phone</label>
+                 </div>
+               <div class="input-field col s12">
+                   <input id="Password" type="password" class="validate">
+                   <label for="Password">Password</label>
+                   </div>
+               <div class="input-field col s12">
+                  <button type="submit" class="waves-effect waves-light btn green">Submit</button>
+                 </div>
+            <a class=" modal-trigger" href="#modal1"><span class="blue-text text-darken-2 ">  &nbsp;&nbsp;&nbsp;Login</span></a>
+
+               </div>
+             </form>
+         </div>
+
+      </div>
+   </div>
+
+
+  <!-- Modal Trigger -->
+
+
+  <!-- Modal Structure -->
+  <div id="modal1" class="modal">
+    <div class="modal-content">
+      <h4>Login Account</h4>
+
+          <form class="col s12" method="post">
+            <div class='row'>
+              <div class='col s12'>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='input-field col s12'>
+                <input class='validate' type='email' name='email' id='email' />
+                <label for='email'>Enter your email</label>
+              </div>
+            </div>
+
+            <div class='row'>
+              <div class='input-field col s12'>
+                <input class='validate' type='password' name='password' id='password' />
+                <label for='password'>Enter your password</label>
+              </div>
+              <label style='float: right;'>
+								<a class='pink-text' href='#!'><b>Forgot Password?</b></a>
+							</label>
+            </div>
+
+            <br />
+            <center>
+              <div class='row'>
+                <button type='submit' name='btn_login' class='col s12 btn btn-large waves-effect green'>Login</button>
+              </div>
+            </center>
+            <a href="Account.html">Create account</a>
+          </form>
+        </div>
+      </div>
+
+
+
+
+
+
+
+    <footer class="page-footer #66bb6a green lighten-1"">
+          <div class="container">
+            <div class="row">
+              <div class="col l6 s12">
+                <h5 class="white-text ">Footer Content</h5>
+                <div class="row">
+                    <div class="col s4 m4 l4 ">
+                    <hr  style="background:green;height:1px; border-radius:3px;">
+                    </div>
+                </div>
+               <div class="row">
+
+                     <img src="img/footer.jpg" alt="footer img" class="z-depth-4 responsive-img materialboxed show-on-small hide-on-large-only">
+                     <p class="grey-text text-lighten-4"> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book
+                     </p>
+
+
+               </div>
+
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text"> Page Links </h5>
+                <div class="row">
+                    <div class="col s4 m4 l5">
+                    <hr  style="background:white;height:1px; border-radius:3px;">
+                    </div>
+                </div>
+                <ul>
+                  <li>
+
+                     <span class="material-icons">
+                     home
+                     </span>
+               <a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                  <li>
+                     <span class="material-icons">
+                    info
+                    </span>
+                     <a class="grey-text text-lighten-3" href="about.html">About</a></li>
+                  <li>
+                     <span class="material-icons">
+                     browse_gallery
+                     </span>
+                     <a class="grey-text text-lighten-3" href="galery.html">Gallery</a></li>
+                  <li>
+                     <span class="material-icons">
+                     contact_emergency
+                     </span>
+                     <a class="grey-text text-lighten-3" href="contact.html">Contact</a></li>
+                  <li>
+      <a class="grey-text text-lighten-3" href="#!">  <span class="material-icons">account_circle</span> Account</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2021 Copyright Nature Explore
+            <a class="grey-text text-lighten-4 right" href="http://nswain.netlify.app">Design By NiKU</a>
+            </div>
+          </div>
+        </footer>
+
+
+
+<script type="text/javascript">
+   $(document).ready(function(){
+   $('.sidenav').sidenav();
+
+   $('.carousel.carousel-slider').carousel({
+     fullWidth: true,
+     indicators: true,
+     autoplay: true,
+     pressed:true,
+     duration:300,
+     dist:100,
+
+   }, setTimeout(autoplay, 4500));
+
+   function autoplay() {
+     $('.carousel').carousel('next');
+     setTimeout(autoplay, 4500);
+   }
+
+
+   $(document).ready(function(){
+    $('.fixed-action-btn').floatingActionButton();
+  });
+
+
+  $(document).ready(function(){
+    $('.parallax').parallax();
+  });
+
+
+  $(document).ready(function(){
+    $('.materialboxed').materialbox();
+        $('.modal').modal();
+  });
+
+});
+
+
+
+</script>
+
+
+</body>
